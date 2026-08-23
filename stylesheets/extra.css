@@ -1,0 +1,15 @@
+.md-header {
+    background-color: #101010;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-default-bg-color: #212221;
+}
+
+.md-nav--primary .md-nav__title {
+  background-color: #1a2332;
+}
+
+.badge-light {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.6));
+}
