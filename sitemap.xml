@@ -2,30 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://777josephd.github.io/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-24</lastmod>
     </url>
     <url>
          <loc>https://777josephd.github.io/about/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-24</lastmod>
     </url>
     <url>
          <loc>https://777josephd.github.io/activity-log/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-24</lastmod>
     </url>
     <url>
          <loc>https://777josephd.github.io/detection-engineering/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-24</lastmod>
     </url>
     <url>
          <loc>https://777josephd.github.io/it-operations/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/identity-and-access-management/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/it-service-management/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/it-support-and-service-desk/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/network-administration/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/scripting-and-automation/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/systems-administration/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/it-operations/virtualization-and-cloud-infrastructure/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/research/</loc>
+         <lastmod>2026-08-24</lastmod>
     </url>
     <url>
          <loc>https://777josephd.github.io/security-operations/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <lastmod>2026-08-24</lastmod>
     </url>
     <url>
-         <loc>https://777josephd.github.io/security-operations/network-traffic-analysis/</loc>
-         <lastmod>2026-08-23</lastmod>
+         <loc>https://777josephd.github.io/security-operations/compliance-engineering/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/security-operations/detection-engineering/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/security-operations/digital-forensics-and-incident-response/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/security-operations/malware-analysis-and-reverse-engineering/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/security-operations/network-security-monitoring/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/security-operations/siem-and-log-analysis/</loc>
+         <lastmod>2026-08-24</lastmod>
+    </url>
+    <url>
+         <loc>https://777josephd.github.io/security-operations/threat-intelligence-and-threat-hunting/</loc>
+         <lastmod>2026-08-24</lastmod>
     </url>
 </urlset>
