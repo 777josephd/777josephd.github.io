@@ -10,29 +10,25 @@
       
       
       
-        <link rel="canonical" href="https://777josephd.github.io/activity-log/">
+        <link rel="canonical" href="https://777josephd.github.io/it-operations/pfsense-firewall-configuration/">
       
       
-        <link rel="prev" href="../research/quantum-computing/">
-      
-      
-        <link rel="next" href="../about/">
       
       
         
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
 <title>Joseph D. Portfolio</title>
 
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.ec1eaa64.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -51,9 +47,9 @@
       
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -77,6 +73,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#pfsense-firewall-rule-configuration" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -87,7 +88,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="Portfolio" class="md-header__button md-logo" aria-label="Portfolio" data-md-component="logo">
+    <a href="../.." title="Joseph D." class="md-header__button md-logo" aria-label="Joseph D." data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -101,13 +102,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Portfolio
+            Joseph D.
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Activity Log
+              pfSense Firewall Rule Configuration
             
           </span>
         </div>
@@ -208,7 +209,7 @@
   
   
     <li class="md-tabs__item">
-      <a href=".." class="md-tabs__link">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -229,7 +230,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../security-operations/" class="md-tabs__link">
+        <a href="../../security-operations/" class="md-tabs__link">
           
   
   
@@ -251,7 +252,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../it-operations/" class="md-tabs__link">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -273,7 +274,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../research/" class="md-tabs__link">
+        <a href="../../research/" class="md-tabs__link">
           
   
   
@@ -291,30 +292,9 @@
   
   
   
-    
-  
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
-        
-  
-  
-    
-  
-  Activity Log
-
-      </a>
-    </li>
-  
-
-      
-        
-  
-  
-  
   
     <li class="md-tabs__item">
-      <a href="../about/" class="md-tabs__link">
+      <a href="../../about/" class="md-tabs__link">
         
   
   
@@ -349,13 +329,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="Portfolio" class="md-nav__button md-logo" aria-label="Portfolio" data-md-component="logo">
+    <a href="../.." title="Joseph D." class="md-nav__button md-logo" aria-label="Joseph D." data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    Portfolio
+    Joseph D.
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -367,7 +347,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -431,7 +411,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../security-operations/" class="md-nav__link ">
+            <a href="../../security-operations/" class="md-nav__link ">
               
   
   
@@ -475,7 +455,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/network-security-monitoring/" class="md-nav__link">
+      <a href="../../security-operations/network-security-monitoring/" class="md-nav__link">
         
   
   
@@ -503,7 +483,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/siem-and-log-analysis/" class="md-nav__link">
+      <a href="../../security-operations/siem-and-log-analysis/" class="md-nav__link">
         
   
   
@@ -531,7 +511,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/digital-forensics-and-incident-response/" class="md-nav__link">
+      <a href="../../security-operations/digital-forensics-and-incident-response/" class="md-nav__link">
         
   
   
@@ -559,7 +539,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/malware-analysis-and-reverse-engineering/" class="md-nav__link">
+      <a href="../../security-operations/malware-analysis-and-reverse-engineering/" class="md-nav__link">
         
   
   
@@ -587,7 +567,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/threat-intelligence-and-threat-hunting/" class="md-nav__link">
+      <a href="../../security-operations/threat-intelligence-and-threat-hunting/" class="md-nav__link">
         
   
   
@@ -615,7 +595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/detection-engineering/" class="md-nav__link">
+      <a href="../../security-operations/detection-engineering/" class="md-nav__link">
         
   
   
@@ -643,7 +623,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../security-operations/compliance-engineering/" class="md-nav__link">
+      <a href="../../security-operations/compliance-engineering/" class="md-nav__link">
         
   
   
@@ -715,7 +695,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../it-operations/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -759,7 +739,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/it-support-and-service-desk/" class="md-nav__link">
+      <a href="../it-support-and-service-desk/" class="md-nav__link">
         
   
   
@@ -787,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/systems-administration/" class="md-nav__link">
+      <a href="../systems-administration/" class="md-nav__link">
         
   
   
@@ -815,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/identity-and-access-management/" class="md-nav__link">
+      <a href="../identity-and-access-management/" class="md-nav__link">
         
   
   
@@ -843,7 +823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/scripting-and-automation/" class="md-nav__link">
+      <a href="../scripting-and-automation/" class="md-nav__link">
         
   
   
@@ -871,7 +851,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/network-administration/" class="md-nav__link">
+      <a href="../network-administration/" class="md-nav__link">
         
   
   
@@ -899,7 +879,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/virtualization-and-cloud-infrastructure/" class="md-nav__link">
+      <a href="../virtualization-and-cloud-infrastructure/" class="md-nav__link">
         
   
   
@@ -927,7 +907,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../it-operations/it-service-management/" class="md-nav__link">
+      <a href="../it-service-management/" class="md-nav__link">
         
   
   
@@ -989,7 +969,7 @@
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../research/" class="md-nav__link ">
+            <a href="../../research/" class="md-nav__link ">
               
   
   
@@ -1033,7 +1013,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../research/artificial-intelligence/" class="md-nav__link">
+      <a href="../../research/artificial-intelligence/" class="md-nav__link">
         
   
   
@@ -1061,7 +1041,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../research/quantum-computing/" class="md-nav__link">
+      <a href="../../research/quantum-computing/" class="md-nav__link">
         
   
   
@@ -1093,45 +1073,10 @@
       
   
   
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Activity Log
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
   
   
     <li class="md-nav__item">
-      <a href="../about/" class="md-nav__link">
+      <a href="../../about/" class="md-nav__link">
         
   
   
@@ -1168,6 +1113,82 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lan-vlan99-soc-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LAN (VLAN99 - SOC Management)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan10-ad-environment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN10 - AD Environment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan20-devsecops" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN20 - DevSecOps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan40-air-gap-segment" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN40 - Air Gap Segment
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan50-adversary-emulation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN50 - Adversary Emulation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vlan70-ai-backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VLAN70 - AI Backend
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1184,9 +1205,374 @@
 
 
 
-  <h1>Activity Log</h1>
-
-
+<h1 id="pfsense-firewall-rule-configuration">pfSense Firewall Rule Configuration</h1>
+<p>Per-VLAN firewall rules enforced by pfSense. Rules are 
+processed top-down, first match wins. Block rules are 
+explicit; pfSense denies all unmatched traffic by default.
+Screenshots for each VLAN are included below each section.</p>
+<hr />
+<h2 id="lan-vlan99-soc-management">LAN (VLAN99 - SOC Management)</h2>
+<p><strong>Default policy:</strong> implicit deny (unmatched traffic)</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Protocol</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Port</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anti-Lockout</td>
+<td>*</td>
+<td>*</td>
+<td>LAN Address</td>
+<td>443, 80</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Allow Admin SSH to Jumpbox</td>
+<td>TCP</td>
+<td>10.0.99.0/24</td>
+<td>10.0.40.2</td>
+<td>22</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Block LAN to home network</td>
+<td>IPv4 *</td>
+<td>LAN subnets</td>
+<td>192.168.0.0/24</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Default allow LAN to any</td>
+<td>IPv4 *</td>
+<td>LAN subnets</td>
+<td>*</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Default allow LAN IPv6</td>
+<td>IPv6 *</td>
+<td>LAN subnets</td>
+<td>*</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+</tbody>
+</table>
+<p>SSH access to the air gap segment is restricted to the 
+Jumpbox only, no direct management access to REMnux or 
+FlareVM from VLAN99. The anti-lockout rule is a pfSense 
+system rule preventing administrative lockout.</p>
+<p><img alt="LAN" src="../../assets/firewall-config/LAN.png" /></p>
+<hr />
+<h2 id="vlan10-ad-environment">VLAN10 - AD Environment</h2>
+<p><strong>Default policy:</strong> implicit deny</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Protocol</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Port</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allow gateway</td>
+<td>IPv4 *</td>
+<td>VLAN10 subnets</td>
+<td>This Firewall</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Block to home network</td>
+<td>IPv4 *</td>
+<td>VLAN10 subnets</td>
+<td>192.168.0.0/24</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block to VLAN40</td>
+<td>IPv4 *</td>
+<td>VLAN10 subnets</td>
+<td>VLAN40 subnets</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Allow all VLAN10 traffic</td>
+<td>IPv4 *</td>
+<td>VLAN10 subnets</td>
+<td>*</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+</tbody>
+</table>
+<p>Target environment with broad outbound access. VLAN40 
+explicitly blocked to prevent target VMs from reaching the 
+malware analysis segment.</p>
+<p><img alt="VLAN10" src="../../assets/firewall-config/VLAN10.png" /></p>
+<hr />
+<h2 id="vlan20-devsecops">VLAN20 - DevSecOps</h2>
+<p><strong>Default policy:</strong> implicit deny</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Protocol</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Port</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allow gateway</td>
+<td>IPv4 *</td>
+<td>VLAN20 subnets</td>
+<td>This Firewall</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Block to home network</td>
+<td>IPv4 *</td>
+<td>VLAN20 subnets</td>
+<td>192.168.0.0/24</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block to VLAN40</td>
+<td>IPv4 *</td>
+<td>VLAN20 subnets</td>
+<td>VLAN40 subnets</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Allow VLAN20 internal networks</td>
+<td>IPv4 *</td>
+<td>VLAN20 subnets</td>
+<td>10.0.0.0/8</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Allow VLAN20 Internet</td>
+<td>IPv4 *</td>
+<td>VLAN20 subnets</td>
+<td>*</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+</tbody>
+</table>
+<p>IaC tooling segment. DevSecOps tooling requires internet 
+access for package management and module downloads.</p>
+<p><img alt="VLAN20" src="../../assets/firewall-config/VLAN20.png" /></p>
+<hr />
+<h2 id="vlan40-air-gap-segment">VLAN40 - Air Gap Segment</h2>
+<p><strong>Default policy:</strong> implicit deny</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Protocol</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Port</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Block to home network</td>
+<td>IPv4 *</td>
+<td>10.0.40.0/24</td>
+<td>192.168.0.0/24</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block to all internal networks</td>
+<td>IPv4 *</td>
+<td>10.0.40.0/24</td>
+<td>10.0.0.0/8</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block to Internet</td>
+<td>IPv4 *</td>
+<td>10.0.40.0/24</td>
+<td>*</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+</tbody>
+</table>
+<p>Fully isolated malware analysis segment. No outbound traffic 
+permitted to any destination. Ingress controlled exclusively 
+at the host level via Jumpbox SSH. pfSense enforces complete 
+network isolation, UFW on REMnux and FlareVM provides 
+secondary host-level enforcement.</p>
+<p><img alt="VLAN40" src="../../assets/firewall-config/VLAN40.png" /></p>
+<hr />
+<h2 id="vlan50-adversary-emulation">VLAN50 - Adversary Emulation</h2>
+<p><strong>Default policy:</strong> implicit deny</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Protocol</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Port</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allow intra-subnet</td>
+<td>IPv4 *</td>
+<td>VLAN50 subnets</td>
+<td>10.0.50.0/24</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Allow reverse shell callbacks to VLAN99</td>
+<td>IPv4 TCP</td>
+<td>VLAN50 subnets</td>
+<td>10.0.99.0/24</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Block to home network</td>
+<td>IPv4 *</td>
+<td>VLAN50 subnets</td>
+<td>192.168.0.0/24</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block to all internal networks</td>
+<td>IPv4 *</td>
+<td>VLAN50 subnets</td>
+<td>10.0.0.0/8</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block Internet access</td>
+<td>IPv4 *</td>
+<td>VLAN50 subnets</td>
+<td>*</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+</tbody>
+</table>
+<p>Adversary emulation segment hosting Metasploitable2. Reverse 
+shell callback rule placed above the internal block rule. Internet access blocked entirely. 
+Metasploitable2 is an intentionally vulnerable image and must 
+not reach external networks under any circumstances.</p>
+<p><img alt="VLAN50" src="../../assets/firewall-config/VLAN50.png" /></p>
+<hr />
+<h2 id="vlan70-ai-backend">VLAN70 - AI Backend</h2>
+<p><strong>Default policy:</strong> implicit deny</p>
+<table>
+<thead>
+<tr>
+<th>Rule</th>
+<th>Protocol</th>
+<th>Source</th>
+<th>Destination</th>
+<th>Port</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Allow DNS</td>
+<td>IPv4 TCP/UDP</td>
+<td>VLAN70 subnets</td>
+<td>*</td>
+<td>53</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Allow HTTPS</td>
+<td>IPv4 TCP</td>
+<td>VLAN70 subnets</td>
+<td>*</td>
+<td>443</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Allow HTTP</td>
+<td>IPv4 TCP</td>
+<td>VLAN70 subnets</td>
+<td>*</td>
+<td>80</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Allow gateway</td>
+<td>IPv4 *</td>
+<td>10.0.70.0/24</td>
+<td>This Firewall</td>
+<td>*</td>
+<td>Pass</td>
+</tr>
+<tr>
+<td>Block 192.168.0.0/16</td>
+<td>IPv4 *</td>
+<td>10.0.70.0/24</td>
+<td>192.168.0.0/16</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block to internal networks</td>
+<td>IPv4 *</td>
+<td>10.0.70.0/24</td>
+<td>10.0.0.0/8</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+<tr>
+<td>Block all outbound</td>
+<td>IPv4 *</td>
+<td>VLAN70 subnets</td>
+<td>*</td>
+<td>*</td>
+<td>Block</td>
+</tr>
+</tbody>
+</table>
+<p>Ollama inference engine requires internet access for model 
+pulls via HTTP/HTTPS. All other outbound traffic blocked. n8n-to-Ollama API 
+traffic (port 11434) is permitted via the default LAN allow 
+rule on VLAN99. No additional rule required on VLAN70 due 
+to stateful inspection handling return traffic.</p>
+<p><img alt="VLAN70" src="../../assets/firewall-config/VLAN70.png" /></p>
 
 
 
@@ -1263,10 +1649,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.tabs", "navigation.sections", "navigation.indexes", "navigation.top", "toc.follow", "search.suggest", "search.highlight", "content.code.copy"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.d7400e89.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>
